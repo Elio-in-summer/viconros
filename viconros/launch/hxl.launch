@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <launch>
-  <node  pkg="viconros" type="viconros" name="hxl_uav">
-    <param name="vicon_host_name" value="192.168.100.104:801"/>
+	<node  pkg="viconros" type="viconros" name="hxl_uav">
+    <param name="vicon_host_name" value="192.168.2.1:801"/>
      <param name="modelsegment_name" value="hxl_uav"/>
-  </node>
+	</node>
 
   <node  pkg="viconros" type="trans_node" output="screen" name="trans_node">
     <remap from="/vicon/uav/pose" to = "/hxl_uav/mocap/pos"/>
