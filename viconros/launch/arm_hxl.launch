@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+  <node  pkg="viconros" type="viconros" name="hxl_arm">
+    <param name="vicon_host_name" value="192.168.100.104:801"/>
+     <param name="modelsegment_name" value="hxl_arm"/>
+  </node>
+</launch>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<launch>
+  <node  pkg="viconros" type="viconros" name="viconros" output="screen" ns="UAV1">
+    <param name="vicon_host_name" value="192.168.2.100:801"/>
+     <param name="modelsegment_name" value="UAV1"/>
+  </node>
+
+   <node pkg="viconros" type="viconros" name="viconros" output="screen" ns="UAV2">
+    <param name="vicon_host_name" value="192.168.2.100:801"/>
+     <param name="modelsegment_name" value="UAV2"/>
+  </node>
+
+  <node  pkg="viconros" type="viconros" name="viconros" output="screen" ns="UAV3">
+    <param name="vicon_host_name" value="192.168.2.100:801"/>
+     <param name="modelsegment_name" value="UAV3"/>
+  </node>
+
+   <node pkg="viconros" type="viconros" name="viconros" output="screen" ns="UAV4">
+    <param name="vicon_host_name" value="192.168.2.100:801"/>
+     <param name="modelsegment_name" value="UAV4"/>
+  </node>
+
+</launch>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package>
+  <name>viconros</name>
+  <version>0.0.3</version>
+  <description>"fetch data from vicon"</description>
+  <maintainer email="">Wolfgang Hoenig</maintainer>
+
+  <license>MIT</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>message_generation</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>tf</build_depend>
+  <build_depend>libobjecttracker</build_depend>
+  <build_depend>libmotioncapture</build_depend>
+  <build_depend>tf_conversion</build_depend>
+
+  <run_depend>message_runtime</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>tf</run_depend>
+  <run_depend>libobjecttracker</run_depend>
+  <run_depend>libmotioncapture</run_depend>
+</package>
